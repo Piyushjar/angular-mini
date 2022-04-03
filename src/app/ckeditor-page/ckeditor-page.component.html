@@ -1,0 +1,7 @@
+<form class="edit">
+  <ckeditor [editor]="Editor" (change)="onChange($event)"></ckeditor>
+  <button (click)="save()">Save</button>
+</form>
+<app-card-section [names]="passingArr"></app-card-section>
+
+<!-- <app-cards [name]="passingArr"></app-cards> -->
